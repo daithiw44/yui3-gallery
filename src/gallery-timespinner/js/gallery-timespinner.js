@@ -1,5 +1,3 @@
-YUI.add('gallery-timespinner', function(Y) {
-
 /*
 TimeSpinner by Dave Winders @daithi44
 
@@ -517,6 +515,3 @@ YUI().add('gallery-timespinner', function(Y) {
 	 Y.TimeSpinner = TimeSpinner;
 	}, '0.01', { requires: [ 'widget', 'node-focusmanager'] });
 
-
-
-}, '@VERSION@' ,{requires:['widget','node-focusmanager']});

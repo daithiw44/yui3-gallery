@@ -1,7 +1,7 @@
 YUI.add('gallery-timespinner', function(Y) {
 
 /*
-TimeSpinner by Dave Winders @daithiw44
+TimeSpinner by Dave Winders @daithi44
 
 Was working on a project that queried/reported on switch calls (Telecoms industry).
 Stephen Woods had developed a nice tool but the system needed the user to be able to input times which could require time down to seconds and could require a start and end time depending on what was being queried.
@@ -518,4 +518,5 @@ YUI().add('gallery-timespinner', function(Y) {
 	}, '0.01', { requires: [ 'widget', 'node-focusmanager'] });
 
 
-}, '@VERSION@' ,{requires:['widget', 'node-focusmanager']});
+
+}, '@VERSION@' ,{requires:['widget','node-focusmanager']});
